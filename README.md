@@ -6,5 +6,5 @@ docker compose up
 
 Unit Tests
 ```
-docker compose exec -it paco pytest --cov=models
+docker compose exec -it web-app pytest --cov=models
 ```
